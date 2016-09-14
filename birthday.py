@@ -1,7 +1,7 @@
 """
 birthday.py
 Author: Liam S
-Credit: none
+Credit: Vincent
 Assignment:
 
 Your program will ask the user the following questions, in this order:
