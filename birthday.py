@@ -37,7 +37,7 @@ todaymonth = datetime.today().month
 todaydate = datetime.today().day
 name = str(input("Hello, what is your name? "))
 month = str(input("Hi, " + name + " what was the name of the month you were born in? "))
-year = int(input("And what year were you born in, " + name + " ? "))
+year = int(input("And what year were you born in, " + name + "?"))
 day = int(input("And the day? "))
 if month == "January":
     month = 1
