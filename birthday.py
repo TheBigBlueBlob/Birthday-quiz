@@ -65,16 +65,22 @@ if month == "December":
     month = 12
 if month == todaymonth and day == todaydate:
     print("Happy birthday!")
-if month == 10 and day == 31
+if month == 10 and day == 31:
     print("You were born on Halloween! ")
-if month == 1 or month == 2 or month == 2:
-    season = 1
-if month == 4 or month == 5 or month == 6:
-    season = 2
-if month == 7 or month == 8 or month == 9:
-    season = 3
-if month == 10 or month == 11 or month == 12:
-    season = 4
+if month == 12 or month == 1 or month == 2:
+    season = "winter"
+if month == 3 or month == 4 or month == 5:
+    season = "spring"
+if month == 6 or month == 7 or month == 8:
+    season = "summer"
+if month == 9 or month == 10 or month == 11:
+    season = "fall"
 if year < 1980:
-    gen = 1
-if year == 1980
+    gen = "Stone Age"
+if year >= 1980 and year < 1990:
+    gen = "eighties"
+if year >= 1990 and year < 2000:
+    gen = "nineties"
+if year >= 2000:
+    gen = "two thousands"
+print(name + ", you are a " +season+ " baby of the " + gen + ".")
