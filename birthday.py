@@ -39,5 +39,42 @@ name = str(input("Hello, what is your name? "))
 month = str(input("Hi, " + name + " what was the name of the month you were born in? "))
 year = int(input("And what year were you born in, " + name + " ? "))
 day = int(input("And the day? "))
-if month == todaymonth or day == todaydate:
+if month == "January":
+    month = 1
+if month == "February":
+    month = 2
+if month == "March":
+    month = 3
+if month == "April":
+    month = 4
+if month == "May":
+    month = 5
+if month == "June":
+    month = 6
+if month == "July":
+    month = 7
+if month == "August":
+    month = 8
+if month == "September":
+    month = 9
+if month == "October":
+    month = 10
+if month == "November":
+    month = 11
+if month == "December":
+    month = 12
+if month == todaymonth and day == todaydate:
     print("Happy birthday!")
+if month == 10 and day == 31
+    print("You were born on Halloween! ")
+if month == 1 or month == 2 or month == 2:
+    season = 1
+if month == 4 or month == 5 or month == 6:
+    season = 2
+if month == 7 or month == 8 or month == 9:
+    season = 3
+if month == 10 or month == 11 or month == 12:
+    season = 4
+if year < 1980:
+    gen = 1
+if year == 1980
