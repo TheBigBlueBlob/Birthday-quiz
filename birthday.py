@@ -84,4 +84,10 @@ if year >= 1990 and year < 2000:
 if year >= 2000:
     gen = "two thousands"
 if month != 10 and day != 31:
-    print(name + ", you are a " +season+ " baby of the " + gen + ".")
+    if month != todaymonth and day != todaydate:
+        print(name + ", you are a " +season+ " baby of the " + gen + ".")
+
+
+
+
+
