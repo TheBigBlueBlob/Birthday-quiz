@@ -83,4 +83,5 @@ if year >= 1990 and year < 2000:
     gen = "nineties"
 if year >= 2000:
     gen = "two thousands"
-print(name + ", you are a " +season+ " baby of the " + gen + ".")
+if month != 10 and day != 31:
+    print(name + ", you are a " +season+ " baby of the " + gen + ".")
